@@ -89,22 +89,134 @@ As metodologias ágeis, como Scrum e Kanban, revolucionaram a forma como desenvo
   - **Artefatos:** O Product Backlog contém os requisitos do produto, enquanto o Sprint Backlog detalha as tarefas a serem realizadas em cada sprint.
 
 - **Kanban:**
-  - **Fluxo de Trabalho:** O Kanban visualiza o fluxo de trabalho, desde a criação de um item até a sua conclusão. As tarefas são organizadas em colunas, como "A Fazer", "Em Andamento" e "Concluído".
-  - **Limites de Trabalho em Processo (WIP):** O Kanban limita o número de tarefas em cada etapa, evitando que o trabalho seja sobrecarregado.
-  - **Melhoria Contínua:** O Kanban enfatiza a melhoria contínua do processo, identificando e eliminando gargalos.
+  - **Fluxo de Trabalho:**
+  O Kanban visualiza o fluxo de trabalho, desde a criação de um item até a sua conclusão. As tarefas são organizadas em colunas, como "A Fazer", "Em Andamento" e "Concluído".
+  - **Limites de Trabalho em Processo (WIP):**
+  O Kanban limita o número de tarefas em cada etapa, evitando que o trabalho seja sobrecarregado.
+  - **Melhoria Contínua:**
+  O Kanban enfatiza a melhoria contínua do processo, identificando e eliminando gargalos.
 
 ### Benefícios da Adoção de Metodologias Ágeis para o Teste de Software
 
-- **Maior qualidade do software:** Devido ao teste contínuo e à colaboração entre as equipes.
-- **Redução de custos:** Identificação e correção de defeitos mais cedo no ciclo de desenvolvimento.
-- **Aumento da satisfação do cliente:** Entrega mais rápida de funcionalidades e maior alinhamento com as necessidades do usuário.
-- **Maior flexibilidade:** Adaptação a mudanças e novos requisitos.
-- **Aumento da produtividade:** Automação de testes e foco em atividades de maior valor.
+- **Maior qualidade do software:**
+Devido ao teste contínuo e à colaboração entre as equipes.
+- **Redução de custos:**
+Identificação e correção de defeitos mais cedo no ciclo de desenvolvimento.
+- **Aumento da satisfação do cliente:**
+Entrega mais rápida de funcionalidades e maior alinhamento com as necessidades do usuário.
+- **Maior flexibilidade:**
+Adaptação a mudanças e novos requisitos.
+- **Aumento da produtividade:**
+Automação de testes e foco em atividades de maior valor.
 
 Em resumo, as metodologias ágeis transformaram o ciclo de teste de software, tornando-o mais eficiente, colaborativo e focado na entrega de valor ao cliente. Ao adotar práticas ágeis, as equipes de desenvolvimento podem criar produtos de alta qualidade mais rapidamente e com menos riscos.
 </details>
 
+<details>
+  <summary>
+
 ## 3. Elabore um plano de teste para uma aplicação web de Prova Online, considerando diferentes tipos de testes (funcional, não funcional, regressão, integração)
+
+  </summary>
+## Plano de Teste para Aplicação Web de Prova Online
+
+### 3.1. Introdução
+
+#### 3.1.1 Objetivo
+
+Este plano de teste tem como objetivo definir as estratégias e os procedimentos para garantir a qualidade da aplicação web de prova online, abrangendo testes funcionais, não funcionais, de regressão e de integração.
+
+#### 3.1.2 Escopo
+
+O escopo deste plano inclui todos os módulos da aplicação, desde o cadastro de usuários até a geração de relatórios de desempenho.
+
+#### 3.1.3 Critérios de Entrada e Saída
+
+- **Entrada:** Requisitos funcionais e não funcionais completos, ambiente de teste configurado e aplicação estável.
+- **Saída:** Relatórios de testes detalhados, identificação de defeitos e aprovação para produção.
+
+### 3.2. Tipos de Testes e Objetivos
+
+- **Testes Funcionais:**
+  - Verificar se todas as funcionalidades da aplicação estão funcionando conforme os requisitos.
+- **Objetivos:**
+  - Cadastro e login de usuários.
+  - Criação e edição de provas.
+  - Realização de provas por alunos.
+  - Correção automática de provas.
+  - Geração de relatórios.
+- **Testes Não Funcionais:**
+  - Avaliar o desempenho, usabilidade, segurança e compatibilidade da aplicação.
+- **Objetivos:**
+  - **Desempenho:** Tempo de resposta, capacidade de carga, uso de recursos.
+  - **Usabilidade:** Facilidade de uso, intuitividade da interface.
+  - **Segurança:** Proteção de dados, autenticação, autorização.
+  - **Compatibilidade:** Funcionamento em diferentes navegadores e dispositivos.
+- **Testes de Regressão:**
+  - Verificar se novas funcionalidades não introduziram defeitos em funcionalidades já existentes.
+- **Objetivos:**
+  - Executar testes funcionais e não funcionais em todas as versões da aplicação.
+- **Testes de Integração:**
+  - Verificar a interação entre os diferentes componentes da aplicação.
+- **Objetivos:**
+  - Integração com banco de dados, sistemas de pagamento (se houver) e outros sistemas externos.
+
+### 3. Estratégias e Técnicas de Teste
+
+- **Testes manuais:** Para cenários complexos e testes exploratórios.
+- **Testes automatizados:** Para testes repetitivos e de regressão, utilizando ferramentas como Selenium.
+- **Testes de unidade:** Para verificar o funcionamento de módulos individuais.
+- **Testes de API:** Para testar as interfaces de programação da aplicação.
+
+### 4. Ambiente de Teste
+
+- **Hardware:** Especificações dos servidores, dispositivos móveis.
+- **Software:** Sistema operacional, banco de dados, navegadores, ferramentas de teste.
+- **Dados:** Criação de um banco de dados de teste com dados realistas.
+
+### 5. Critérios de Aceitação
+
+- **Cobertura de testes:** Percentual de requisitos cobertos pelos testes.
+- **Número de defeitos:** Quantidade de defeitos encontrados e corrigidos.
+- **Tempo de execução dos testes:** Tempo médio para executar todos os testes.
+
+### 6. Riscos e Mitigação
+
+- **Riscos:** Defeitos críticos, atrasos na entrega, falta de recursos.
+- **Mitigação:** Planos de contingência, comunicação frequente, acompanhamento do progresso.
+
+### 7. Recursos
+
+- **Equipe:** Testadores, desenvolvedores, analistas de qualidade.
+- **Ferramentas:** Ferramentas de gerenciamento de testes, ferramentas de automação, ferramentas de análise de dados.
+
+### 8. Cronograma
+
+- **Atividades:** Criação de casos de teste, execução de testes, análise de resultados, geração de relatórios.
+- **Prazos:** Datas de início e fim de cada atividade.
+
+### 9. Documentação
+
+- **Casos de teste:** Descrição detalhada de cada caso de teste, incluindo pré-condições, passos, resultados esperados e resultados reais.
+- **Relatórios de defeitos:** Descrição detalhada de cada defeito encontrado.
+- **Relatórios de testes:** Resumo dos resultados dos testes.
+
+**Observações:**
+
+- Este é um plano de teste genérico e pode ser adaptado de acordo com as especificidades da aplicação.
+- É importante revisar e atualizar este plano regularmente ao longo do projeto.
+- A comunicação entre a equipe de desenvolvimento e a equipe de testes é fundamental para o sucesso do projeto.
+
+**Considerações Adicionais:**
+
+- **Testes de usabilidade:** Avaliar a experiência do usuário com a aplicação.
+- **Testes de segurança:** Verificar a vulnerabilidade da aplicação a ataques.
+- **Testes de desempenho sob carga:** Simular um grande número de usuários simultâneos.
+- **Testes de compatibilidade em diferentes dispositivos e navegadores:** Garantir que a aplicação funcione corretamente em diferentes ambientes.
+
+Ao seguir este plano de teste, é possível garantir que a aplicação web de prova online seja entregue com alta qualidade e atenda às necessidades dos usuários.
+
+</details>
 
 ## 4. Discuta a importância da priorização de casos de teste e como isso afeta a eficácia do processo de teste
 
