@@ -1,8 +1,14 @@
 # Avaliação de Analista de Qualidade
 
 Questões Teóricas
+<details>
+    <summary>
 
-## 1. Descreva a diferença entre QA, QC e Testing, fornecendo exemplos práticos de cada.
+## 1. Descreva a diferença entre QA, QC e Testing, fornecendo exemplos práticos de cada
+
+    </summary>
+
+
 
 ### QA, QC e Testing: Uma Visão Geral
 
@@ -59,7 +65,41 @@ Imagine o desenvolvimento de um aplicativo de e-commerce.
 
 **Em um projeto de sucesso, QA, QC e Testing trabalham em conjunto para garantir a entrega de um produto de alta qualidade.**
 
+</details>
+
 ## 2. Explique como as metodologias ágeis (Scrum, Kanban) impactam o ciclo de teste de software
+
+As metodologias ágeis, como Scrum e Kanban, revolucionaram a forma como desenvolvemos software, e o ciclo de teste não ficou de fora. Ao adotar uma abordagem mais flexível e iterativa, essas metodologias trouxeram uma série de mudanças significativas para o processo de testes.
+
+### Impacto das Metodologias Ágeis no Ciclo de Teste
+
+- **Teste Contínuo:** Ao invés de grandes ciclos de teste ao final do desenvolvimento, as metodologias ágeis incentivam o teste contínuo em cada sprint. Isso permite identificar e corrigir defeitos mais rapidamente, reduzindo o custo de correção e aumentando a qualidade do software.
+- **Colaboração entre Desenvolvedores e Testers:** A comunicação e a colaboração são fundamentais nas metodologias ágeis. Desenvolvedores e testadores trabalham juntos desde o início do projeto, o que facilita a identificação de requisitos, a criação de testes e a resolução de problemas.
+- **Automação de Testes:** A automação de testes é essencial para garantir a velocidade e a repetibilidade dos testes em um ambiente ágil. Ferramentas de automação permitem executar um grande número de testes em pouco tempo, liberando os testadores para se concentrarem em atividades de maior valor.
+- **Testes de Aceitação pelo Usuário:** Os usuários finais estão mais envolvidos no processo de desenvolvimento ágil. Isso permite que eles forneçam feedback constante sobre o produto, garantindo que o software atenda às suas necessidades e expectativas.
+- **Adaptação a Mudanças:** As metodologias ágeis são altamente adaptáveis a mudanças. Os planos de teste podem ser ajustados a cada sprint para refletir as novas funcionalidades e requisitos.
+
+### Scrum e Kanban: Diferenças e Impactos no Teste
+
+- **Scrum:**
+  - **Papéis:** O Scrum Master facilita o processo, o Product Owner define os requisitos e a equipe de desenvolvimento é responsável pela implementação e pelos testes.
+  - **Eventos:** As reuniões diárias, as revisões de sprint e as retrospectivas são oportunidades para discutir o progresso dos testes e identificar áreas de melhoria.
+  - **Artefatos:** O Product Backlog contém os requisitos do produto, enquanto o Sprint Backlog detalha as tarefas a serem realizadas em cada sprint.
+
+- **Kanban:**
+  - **Fluxo de Trabalho:** O Kanban visualiza o fluxo de trabalho, desde a criação de um item até a sua conclusão. As tarefas são organizadas em colunas, como "A Fazer", "Em Andamento" e "Concluído".
+  - **Limites de Trabalho em Processo (WIP):** O Kanban limita o número de tarefas em cada etapa, evitando que o trabalho seja sobrecarregado.
+  - **Melhoria Contínua:** O Kanban enfatiza a melhoria contínua do processo, identificando e eliminando gargalos.
+
+### Benefícios da Adoção de Metodologias Ágeis para o Teste de Software
+
+- **Maior qualidade do software:** Devido ao teste contínuo e à colaboração entre as equipes.
+- **Redução de custos:** Identificação e correção de defeitos mais cedo no ciclo de desenvolvimento.
+- **Aumento da satisfação do cliente:** Entrega mais rápida de funcionalidades e maior alinhamento com as necessidades do usuário.
+- **Maior flexibilidade:** Adaptação a mudanças e novos requisitos.
+- **Aumento da produtividade:** Automação de testes e foco em atividades de maior valor.
+
+Em resumo, as metodologias ágeis transformaram o ciclo de teste de software, tornando-o mais eficiente, colaborativo e focado na entrega de valor ao cliente. Ao adotar práticas ágeis, as equipes de desenvolvimento podem criar produtos de alta qualidade mais rapidamente e com menos riscos.
 
 ## 3. Elabore um plano de teste para uma aplicação web de Prova Online, considerando diferentes tipos de testes (funcional, não funcional, regressão, integração)
 
