@@ -2,13 +2,11 @@
 
 Questões Teóricas
 <details>
-    <summary>
+  <summary>
 
 ## 1. Descreva a diferença entre QA, QC e Testing, fornecendo exemplos práticos de cada
 
-    </summary>
-
-
+  </summary>
 
 ### QA, QC e Testing: Uma Visão Geral
 
@@ -18,30 +16,30 @@ Questões Teóricas
 
 - **Foco:** O QA se concentra em **prevenir** defeitos e garantir que os processos de desenvolvimento sejam eficientes e eficazes. É uma abordagem proativa que visa estabelecer um ambiente de qualidade desde o início do projeto.
 - **Atividades:**
-- **Definição de padrões e processos:** Estabelecer critérios de qualidade, melhores práticas e procedimentos para todas as fases do desenvolvimento.
-- **Análise de riscos:** Identificar potenciais problemas e tomar medidas para mitigá-los.
-- **Revisão de requisitos:** Garantir que os requisitos do cliente sejam claros e completos.
-- **Treinamento:** Capacitar a equipe sobre as práticas de qualidade.
+  - **Definição de padrões e processos:** Estabelecer critérios de qualidade, melhores práticas e procedimentos para todas as fases do desenvolvimento.
+  - **Análise de riscos:** Identificar potenciais problemas e tomar medidas para mitigá-los.
+  - **Revisão de requisitos:** Garantir que os requisitos do cliente sejam claros e completos.
+  - **Treinamento:** Capacitar a equipe sobre as práticas de qualidade.
 - **Exemplo:** Um time de QA pode criar um guia de estilo para o código, realizar revisões de código regularmente e estabelecer um processo de aprovação para mudanças no sistema.
 
 #### Quality Control (QC) - Controle da Qualidade
 
 - **Foco:** O QC se concentra em **identificar e corrigir** defeitos nos produtos ou processos. É uma abordagem reativa que visa garantir que o produto final atenda aos requisitos de qualidade.
 - **Atividades:**
-- **Testes:** Executar testes para verificar se o produto funciona conforme o esperado.
-- **Inspeções:** Realizar inspeções visuais e funcionais para detectar defeitos.
-- **Verificação de conformidade:** Comparar o produto com os requisitos e padrões estabelecidos.
+  - **Testes:** Executar testes para verificar se o produto funciona conforme o esperado.
+  - **Inspeções:** Realizar inspeções visuais e funcionais para detectar defeitos.
+  - **Verificação de conformidade:** Comparar o produto com os requisitos e padrões estabelecidos.
 - **Exemplo:** Um time de QC pode executar testes unitários, de integração e de sistema para identificar bugs em um software, além de realizar inspeções visuais para verificar se a interface do usuário está de acordo com as diretrizes de design.
 
 #### Testing - Teste
 
 - **Foco:** O testing é uma parte integrante do QC e envolve a execução de atividades para verificar se um produto ou sistema atende aos requisitos especificados.
 - **Tipos de testes:**
-- **Testes unitários:** Verificam o funcionamento de unidades individuais de código.
-- **Testes de integração:** Verificam se diferentes componentes do sistema funcionam juntos.
-- **Testes de sistema:** Verificam o sistema como um todo.
-- **Testes de aceitação:** Verificam se o sistema atende aos requisitos do cliente.
-- **Exemplo:** Um engenheiro de testes pode criar casos de teste para verificar se um formulário de cadastro funciona corretamente, incluindo a validação de dados e a exibição de mensagens de erro.
+  - **Testes unitários:** Verificam o funcionamento de unidades individuais de código.
+  - **Testes de integração:** Verificam se diferentes componentes do sistema funcionam juntos.
+  - **Testes de sistema:** Verificam o sistema como um todo.
+  - **Testes de aceitação:** Verificam se o sistema atende aos requisitos do cliente.
+  - **Exemplo:** Um engenheiro de testes pode criar casos de teste para verificar se um formulário de cadastro funciona corretamente, incluindo a validação de dados e a exibição de mensagens de erro.
 
 ### Relação entre QA, QC e Testing
 
@@ -68,11 +66,11 @@ Imagine o desenvolvimento de um aplicativo de e-commerce.
 </details>
 
 <details>
-    <summary>
+  <summary>
 
 ## 2. Explique como as metodologias ágeis (Scrum, Kanban) impactam o ciclo de teste de software
-    
-    </summary>
+
+  </summary>
 As metodologias ágeis, como Scrum e Kanban, revolucionaram a forma como desenvolvemos software, e o ciclo de teste não ficou de fora. Ao adotar uma abordagem mais flexível e iterativa, essas metodologias trouxeram uma série de mudanças significativas para o processo de testes.
 
 ### Impacto das Metodologias Ágeis no Ciclo de Teste
