@@ -67,8 +67,12 @@ Imagine o desenvolvimento de um aplicativo de e-commerce.
 
 </details>
 
-## 2. Explique como as metodologias ágeis (Scrum, Kanban) impactam o ciclo de teste de software
+<details>
+    <summary>
 
+## 2. Explique como as metodologias ágeis (Scrum, Kanban) impactam o ciclo de teste de software
+    
+    </summary>
 As metodologias ágeis, como Scrum e Kanban, revolucionaram a forma como desenvolvemos software, e o ciclo de teste não ficou de fora. Ao adotar uma abordagem mais flexível e iterativa, essas metodologias trouxeram uma série de mudanças significativas para o processo de testes.
 
 ### Impacto das Metodologias Ágeis no Ciclo de Teste
@@ -100,6 +104,7 @@ As metodologias ágeis, como Scrum e Kanban, revolucionaram a forma como desenvo
 - **Aumento da produtividade:** Automação de testes e foco em atividades de maior valor.
 
 Em resumo, as metodologias ágeis transformaram o ciclo de teste de software, tornando-o mais eficiente, colaborativo e focado na entrega de valor ao cliente. Ao adotar práticas ágeis, as equipes de desenvolvimento podem criar produtos de alta qualidade mais rapidamente e com menos riscos.
+</details>
 
 ## 3. Elabore um plano de teste para uma aplicação web de Prova Online, considerando diferentes tipos de testes (funcional, não funcional, regressão, integração)
 
