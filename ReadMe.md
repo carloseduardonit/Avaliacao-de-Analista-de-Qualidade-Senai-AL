@@ -406,8 +406,6 @@ A escolha da ferramenta ideal depende das necessidades específicas do seu proje
 
 ## 7. Explique como lidar com elementos dinâmicos em uma página web durante a automação de testes
 
-## Lidando com Elementos Dinâmicos em Automação de Testes
-
 **Elementos dinâmicos** são aqueles que se alteram durante a execução de um teste, seja por conta de IDs gerados aleatoriamente, carregamento assíncrono de conteúdo ou outras interações do usuário. Lidar com esses elementos pode ser um desafio na automação de testes, mas existem algumas estratégias eficazes para contornar esse problema:
 
 ### Estratégias para lidar com elementos dinâmicos
