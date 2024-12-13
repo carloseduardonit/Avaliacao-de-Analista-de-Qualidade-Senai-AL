@@ -118,7 +118,8 @@ Em resumo, as metodologias ágeis transformaram o ciclo de teste de software, to
 ## 3. Elabore um plano de teste para uma aplicação web de Prova Online, considerando diferentes tipos de testes (funcional, não funcional, regressão, integração)
 
   </summary>
-## Plano de Teste para Aplicação Web de Prova Online
+
+- Plano de Teste para Aplicação Web de Prova Online
 
 ### 3.1. Introdução
 
@@ -161,41 +162,41 @@ O escopo deste plano inclui todos os módulos da aplicação, desde o cadastro d
 - **Objetivos:**
   - Integração com banco de dados, sistemas de pagamento (se houver) e outros sistemas externos.
 
-### 3. Estratégias e Técnicas de Teste
+### 3.3. Estratégias e Técnicas de Teste
 
 - **Testes manuais:** Para cenários complexos e testes exploratórios.
 - **Testes automatizados:** Para testes repetitivos e de regressão, utilizando ferramentas como Selenium.
 - **Testes de unidade:** Para verificar o funcionamento de módulos individuais.
 - **Testes de API:** Para testar as interfaces de programação da aplicação.
 
-### 4. Ambiente de Teste
+### 3.4. Ambiente de Teste
 
 - **Hardware:** Especificações dos servidores, dispositivos móveis.
 - **Software:** Sistema operacional, banco de dados, navegadores, ferramentas de teste.
 - **Dados:** Criação de um banco de dados de teste com dados realistas.
 
-### 5. Critérios de Aceitação
+### 3.5. Critérios de Aceitação
 
 - **Cobertura de testes:** Percentual de requisitos cobertos pelos testes.
 - **Número de defeitos:** Quantidade de defeitos encontrados e corrigidos.
 - **Tempo de execução dos testes:** Tempo médio para executar todos os testes.
 
-### 6. Riscos e Mitigação
+### 3.6. Riscos e Mitigação
 
 - **Riscos:** Defeitos críticos, atrasos na entrega, falta de recursos.
 - **Mitigação:** Planos de contingência, comunicação frequente, acompanhamento do progresso.
 
-### 7. Recursos
+### 3.7. Recursos
 
 - **Equipe:** Testadores, desenvolvedores, analistas de qualidade.
 - **Ferramentas:** Ferramentas de gerenciamento de testes, ferramentas de automação, ferramentas de análise de dados.
 
-### 8. Cronograma
+### 3.8. Cronograma
 
 - **Atividades:** Criação de casos de teste, execução de testes, análise de resultados, geração de relatórios.
 - **Prazos:** Datas de início e fim de cada atividade.
 
-### 9. Documentação
+### 3.9. Documentação
 
 - **Casos de teste:** Descrição detalhada de cada caso de teste, incluindo pré-condições, passos, resultados esperados e resultados reais.
 - **Relatórios de defeitos:** Descrição detalhada de cada defeito encontrado.
@@ -218,7 +219,49 @@ Ao seguir este plano de teste, é possível garantir que a aplicação web de pr
 
 </details>
 
+<details>
+  <summary>
+
 ## 4. Discuta a importância da priorização de casos de teste e como isso afeta a eficácia do processo de teste
+
+  </summary>
+
+A priorização de casos de teste é uma prática fundamental em qualquer processo de garantia de qualidade de software. Ela consiste em ordenar os casos de teste de acordo com sua importância e criticidade, visando otimizar o tempo e os recursos alocados para os testes.
+
+### Por que a Priorização é Essencial?
+
+- **Limitação de Tempo e Recursos:** Em projetos reais, o tempo e os recursos são limitados. Priorizar os casos de teste permite focar nos mais críticos e garantir que as funcionalidades mais importantes sejam testadas.
+- **Gerenciamento de Riscos:** Ao identificar e priorizar os casos de teste que mais impactam o sistema, é possível reduzir o risco de falhas em áreas críticas.
+- **Adaptação a Mudanças:** Em projetos ágeis, as prioridades podem mudar frequentemente. A priorização permite ajustar os planos de teste de acordo com as novas demandas.
+- **Melhora da Eficiência:** Ao executar os casos de teste mais importantes primeiro, é possível identificar e corrigir defeitos mais rapidamente, acelerando o processo de desenvolvimento.
+
+**Como a Priorização Afeta a Eficácia do Processo de Teste?**
+
+- **Aumento da Cobertura de Testes:** Ao focar nos casos de teste mais importantes, é possível garantir uma maior cobertura de testes, reduzindo o risco de falhas.
+- **Redução do Tempo de Teste:** A execução de um número menor de casos de teste, mas com maior impacto, reduz o tempo necessário para completar os testes.
+- **Melhora da Qualidade do Software:** A identificação e correção de defeitos mais críticos no início do ciclo de desenvolvimento contribui para a entrega de um software com maior qualidade.
+- **Melhor Tomada de Decisão:** A priorização permite que as equipes de teste tomem decisões mais informadas sobre quais testes executar e quando.
+
+**Critérios para Priorização de Casos de Teste:**
+
+- **Risco:** Casos de teste que envolvem funcionalidades críticas ou que podem causar maior impacto no sistema devem ter alta prioridade.
+- **Impacto do Usuário:** Casos de teste que afetam diretamente a experiência do usuário também devem ser priorizados.
+- **Estabilidade do Sistema:** Casos de teste que verificam a estabilidade do sistema, como testes de desempenho e de carga, são importantes.
+- **Frequência de Falhas:** Casos de teste que identificaram defeitos em versões anteriores do software podem ser priorizados.
+- **Custos de Correção:** Casos de teste que, se falharem, resultarão em custos de correção mais elevados, devem ser priorizados.
+
+**Técnicas de Priorização:**
+
+- **Análise de Risco:** Identificar os riscos associados a cada caso de teste.
+- **Matriz de Risco:** Criar uma matriz que relaciona a probabilidade de ocorrência de um defeito com o impacto desse defeito.
+- **Pareto:** Aplicar a regra dos 80/20, onde 80% dos defeitos são causados por 20% dos casos de teste.
+- **Priorização Baseada em Valor de Negócio:** Priorizar os casos de teste que agregam mais valor ao negócio.
+
+**Conclusão:**
+
+A priorização de casos de teste é uma prática essencial para garantir a eficácia do processo de teste. Ao focar nos casos de teste mais importantes, as equipes de teste podem reduzir o tempo e os custos, aumentar a qualidade do software e tomar decisões mais estratégicas.
+
+</details>  
 
 ## 5. Descreva como integrar testes automatizados em um pipeline CI/CD, utilizando ferramentas como Jenkins ou GitLab CI ou Azure DevOps
 
