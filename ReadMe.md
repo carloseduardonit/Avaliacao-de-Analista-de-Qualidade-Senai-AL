@@ -1,8 +1,13 @@
 # Avaliação de Analista de Qualidade
 
 Questões Teóricas
+<details>
+
+<summary>
 
 ## 1. Descreva a diferença entre QA, QC e Testing, fornecendo exemplos práticos de cada
+
+</summary>
 
 ### QA, QC e Testing: Uma Visão Geral
 
@@ -59,7 +64,17 @@ Imagine o desenvolvimento de um aplicativo de e-commerce.
 
 **Em um projeto de sucesso, QA, QC e Testing trabalham em conjunto para garantir a entrega de um produto de alta qualidade.**
 
+</details>
+
+---
+
+<details>
+
+<summary>
+
 ## 2. Explique como as metodologias ágeis (Scrum, Kanban) impactam o ciclo de teste de software
+
+</summary>
 
 As metodologias ágeis, como Scrum e Kanban, revolucionaram a forma como desenvolvemos software, e o ciclo de teste não ficou de fora. Ao adotar uma abordagem mais flexível e iterativa, essas metodologias trouxeram uma série de mudanças significativas para o processo de testes.
 
@@ -100,6 +115,12 @@ Adaptação a mudanças e novos requisitos.
 Automação de testes e foco em atividades de maior valor.
 
 Em resumo, as metodologias ágeis transformaram o ciclo de teste de software, tornando-o mais eficiente, colaborativo e focado na entrega de valor ao cliente. Ao adotar práticas ágeis, as equipes de desenvolvimento podem criar produtos de alta qualidade mais rapidamente e com menos riscos.
+
+</details>
+
+<details>
+
+<summary>
 
 ## 3. Elabore um plano de teste para uma aplicação web de Prova Online, considerando diferentes tipos de testes (funcional, não funcional, regressão, integração)
 
@@ -198,9 +219,15 @@ O escopo deste plano inclui todos os módulos da aplicação, desde o cadastro d
 - **Testes de compatibilidade em diferentes dispositivos e navegadores:** Garantir que a aplicação funcione corretamente em diferentes ambientes.
 
 Ao seguir este plano de teste, é possível garantir que a aplicação web de prova online seja entregue com alta qualidade e atenda às necessidades dos usuários.
+</details>
+---
+<details>
+
+<summary>
 
 ## 4. Discuta a importância da priorização de casos de teste e como isso afeta a eficácia do processo de teste
 
+</summary>
 A priorização de casos de teste é uma prática fundamental em qualquer processo de garantia de qualidade de software. Ela consiste em ordenar os casos de teste de acordo com sua importância e criticidade, visando otimizar o tempo e os recursos alocados para os testes.
 
 ### Por que a Priorização é Essencial?
@@ -235,9 +262,16 @@ A priorização de casos de teste é uma prática fundamental em qualquer proces
 **Conclusão:**
 
 A priorização de casos de teste é uma prática essencial para garantir a eficácia do processo de teste. Ao focar nos casos de teste mais importantes, as equipes de teste podem reduzir o tempo e os custos, aumentar a qualidade do software e tomar decisões mais estratégicas.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 5. Descreva como integrar testes automatizados em um pipeline CI/CD, utilizando ferramentas como Jenkins ou GitLab CI ou Azure DevOps
 
+</summary>
 A integração de testes automatizados em um pipeline CI/CD (Integração Contínua e Entrega Contínua) é uma prática fundamental para garantir a qualidade do software e acelerar o processo de desenvolvimento. Ferramentas como Jenkins, GitLab CI e Azure DevOps oferecem recursos poderosos para automatizar a execução de testes e integrar essa etapa ao fluxo de desenvolvimento.
 
 **Como Integrar:**
@@ -333,9 +367,15 @@ steps:
 A integração de testes automatizados em um pipeline CI/CD é uma prática fundamental para garantir a qualidade do software e acelerar o processo de desenvolvimento. Ao seguir as etapas descritas e utilizar as ferramentas adequadas, é possível criar um processo de desenvolvimento mais eficiente e confiável.
 
 **Gostaria de explorar algum desses tópicos com mais detalhes?** Por exemplo, podemos discutir como escolher a ferramenta de teste ideal para o seu projeto, como criar testes eficazes ou como integrar testes em diferentes tipos de aplicações.
+</details>
+
+---
+<details>
+<summary>
 
 ## 6. Compare as ferramentas de automação de testes Cypress, Appium e Selenium, destacando vantagens e desvantagens de cada
 
+</summary>
 As ferramentas Cypress, Appium e Selenium são líderes de mercado na automação de testes, cada uma com suas próprias fortalezas e áreas de aplicação. Vamos comparar as principais características de cada uma:
 
 ### Cypress
@@ -1502,3 +1542,21 @@ Utilizando o Postman, podemos realizar testes de penetração em uma API RESTful
 A avaliação de segurança de APIs RESTful é um processo contínuo e requer um conhecimento profundo de boas práticas de segurança. Ao seguir as recomendações apresentadas neste guia e utilizando as ferramentas adequadas, é possível identificar e corrigir vulnerabilidades, garantindo a segurança da sua aplicação.
 
 **Observação:** Este guia apresenta um overview das principais áreas a serem avaliadas em uma API RESTful. Uma avaliação completa pode exigir conhecimentos mais aprofundados em segurança da informação e o uso de ferramentas especializadas.
+
+</details>
+
+---
+
+<details>
+
+<summary>
+
+## 📬 Entre em contato pelo :point_left:
+
+</summary>
+
+> [![Telegram](https://img.shields.io/badge/Telegram-000?style=for-the-badge&logo=telegram&logoColor=2CA5E0)](https://t.me/Carlaol) [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?1=pt_BR&phone=5521985745077) [![Gmail](https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red)](mailto:carlostecnico@mail.com) [![X](https://img.shields.io/badge/X-000?style=for-the-badge&logo=x)](https://x.com/Carlao_Me_Ajuda) [![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/carlao.me.ajuda/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-eduardo-dos-s-figueiredo/)  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/carloseduardonit/) [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/channels/@carloseduardonit/)
+
+</details>
+
+---
