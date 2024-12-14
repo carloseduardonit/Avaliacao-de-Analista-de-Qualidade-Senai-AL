@@ -888,9 +888,16 @@ Existem diversas ferramentas disponíveis no mercado para realizar testes de car
 - **Gatling:** Ferramenta open-source baseada em Scala para testes de carga de alto desempenho.
 
 **Em resumo**, os testes de carga e stress são essenciais para garantir a qualidade e a performance de qualquer aplicação de software. Ao identificar e corrigir problemas de desempenho antes do lançamento, é possível evitar interrupções no serviço e garantir a satisfação dos usuários.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 13. Descreva como utilizar Git para controle de versão em um projeto de software
 
+</summary>
 O Git é um sistema de controle de versão distribuído extremamente popular, utilizado por desenvolvedores do mundo todo para gerenciar o código-fonte de seus projetos. Ele permite acompanhar as mudanças no código ao longo do tempo, colaborar com outros desenvolvedores e restaurar versões anteriores do projeto, se necessário.
 
 **Conceitos-chave:**
@@ -945,11 +952,18 @@ Ao dominar o Git, você estará mais preparado para trabalhar em projetos de des
 - **Boas práticas para utilizar o Git:** Dicas para otimizar o uso do Git em seus projetos.
 - **Integração do Git com outras ferramentas:** Como integrar o Git com ferramentas de CI/CD, como Jenkins e Travis CI.
 
+</details>
+
 Questões Práticas
 
-(Disponibilize o link do GitHub com a solução)
+---
+
+<details>
+<summary>
 
 ## 14. Desenvolva com Cypress um dos planos de teste criados para aplicação web de Prova Online
+
+</summary>
 
 **Entendendo o Cypress:**
 
@@ -1055,7 +1069,16 @@ Para criar um plano de teste completo, é importante considerar todos os aspecto
 
 **Lembre-se:** Este é apenas um exemplo de plano de teste. A complexidade e o número de casos de teste vão variar de acordo com a aplicação e os requisitos do projeto.
 
+</details>
+
+---
+
+<details>
+<summary>
+
 ## 15. Desenvolva um caso de teste para uma funcionalidade específica de um aplicativo móvel de uma Clínica Odontológica, considerando diferentes cenários de uso
+
+</summary>
 
 ### Objetivo
 
@@ -1149,8 +1172,16 @@ Verificar se a funcionalidade de agendamento de consultas está funcionando corr
 - Lembretes de consulta.
 
 Ao realizar esses testes, é possível garantir que a funcionalidade de agendamento de consultas esteja funcionando corretamente e ofereça uma boa experiência ao usuário.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 16. Escreva um exemplo de código em Cypress para automatizar um teste de login em uma aplicação web que usa Email, CPF e Senha para entrar no sistema
+
+</summary>
 
 **Entendendo o teste:**
 
@@ -1234,7 +1265,12 @@ describe('Teste de Login', () => {
 Este exemplo demonstra como parametrizar o teste para executar o login com diferentes usuários.
 
 **Lembre-se:** Este é apenas um exemplo básico. A complexidade dos seus testes dependerá da sua aplicação e dos requisitos específicos do projeto.
+</details>
 
+---
+
+<details>
+<summary>
 ## 17. Elabore dois testes automatizados para uma API RESTfull de Controle de Ponto de funcionário,utilizando uma ferramenta de sua escolha
 
 **Postman** é uma ferramenta popular para o desenvolvimento e teste de APIs. Vamos criar dois testes automatizados para uma API RESTful de controle de ponto, simulando as ações de um funcionário batendo o ponto.
@@ -1441,7 +1477,6 @@ cy.get('input[type="file"]').attachFile({
 **Conclusão:**
 
 Este script fornece uma base sólida para automatizar testes de upload de arquivos com Cypress. Adaptando-o às suas necessidades específicas, você pode criar testes robustos e confiáveis.
-o)
 </details>
 
 ---
@@ -1449,9 +1484,11 @@ o)
 <details>
 <summary>
 
-## 19. Escreva um exemplo de código como realizar testes de performance em uma aplicação web, utilizando ferramentas de sua escolha## Testes de Desempenho em Aplicações Web: Um Exemplo com JMeter
+## 19. Escreva um exemplo de código como realizar testes de performance em uma aplicação web, utilizando ferramentas de sua escolha
 
 </summary>
+
+### Testes de Desempenho em Aplicações Web: Um Exemplo com JMeter
 
 **JMeter** é uma ferramenta de teste de carga open-source popular, ideal para simular um grande número de usuários acessando uma aplicação web simultaneamente. Vamos criar um exemplo simples de teste de desempenho para uma página inicial.
 
