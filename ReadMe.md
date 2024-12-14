@@ -124,6 +124,8 @@ Em resumo, as metodologias ágeis transformaram o ciclo de teste de software, to
 
 ## 3. Elabore um plano de teste para uma aplicação web de Prova Online, considerando diferentes tipos de testes (funcional, não funcional, regressão, integração)
 
+</summary>
+
 ### 3.1. Introdução
 
 #### 3.1.1 Objetivo
@@ -220,7 +222,9 @@ O escopo deste plano inclui todos os módulos da aplicação, desde o cadastro d
 
 Ao seguir este plano de teste, é possível garantir que a aplicação web de prova online seja entregue com alta qualidade e atenda às necessidades dos usuários.
 </details>
+
 ---
+
 <details>
 
 <summary>
@@ -370,6 +374,7 @@ A integração de testes automatizados em um pipeline CI/CD é uma prática fund
 </details>
 
 ---
+
 <details>
 <summary>
 
@@ -442,10 +447,17 @@ A escolha da ferramenta ideal depende das necessidades específicas do seu proje
 - **Playwright:** Uma ferramenta de teste end-to-end que oferece uma alternativa moderna ao Cypress.
 - **Puppeteer:** Uma biblioteca Node.js para controlar o Chrome ou Chromium de forma programática.
 
-**Gostaria de discutir algum caso específico ou tem mais perguntas sobre essas ferramentas?**
+</details>
+
+---
+
+<details>
+
+<summary>
 
 ## 7. Explique como lidar com elementos dinâmicos em uma página web durante a automação de testes
 
+</summary>
 **Elementos dinâmicos** são aqueles que se alteram durante a execução de um teste, seja por conta de IDs gerados aleatoriamente, carregamento assíncrono de conteúdo ou outras interações do usuário. Lidar com esses elementos pode ser um desafio na automação de testes, mas existem algumas estratégias eficazes para contornar esse problema:
 
 ### Estratégias para lidar com elementos dinâmicos
@@ -539,8 +551,16 @@ element.click()
 ```
 
 **Lembre-se:** A escolha da estratégia ideal depende da complexidade do elemento dinâmico e da estrutura da aplicação. Ao combinar essas técnicas, você poderá criar testes mais robustos e confiáveis, mesmo em aplicações com elementos que se alteram constantemente.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 8. Descreva um caso de teste manual para uma funcionalidade de pagamento em um e-commerce, considerando diferentes métodos de pagamento
+
+</summary>
 
 **Objetivo:** Verificar se a funcionalidade de pagamento de um e-commerce está funcionando corretamente para diferentes métodos de pagamento.
 
@@ -615,9 +635,16 @@ element.click()
 **Este é apenas um exemplo de caso de teste. A complexidade e o número de casos de teste podem variar dependendo da funcionalidade específica do e-commerce.**
 
 Ao realizar esses testes, é possível identificar e corrigir possíveis problemas na funcionalidade de pagamento, garantindo uma experiência de compra segura e eficiente para os clientes.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 9. Discuta a importância do teste exploratório e como ele pode ser utilizado em conjunto com testes automatizados
 
+</summary>
 O teste exploratório, apesar de ser um método mais intuitivo e menos estruturado que os testes automatizados, desempenha um papel fundamental na garantia da qualidade de software. Ele permite que os testadores explorem a aplicação de forma livre, descobrindo defeitos que podem não ser identificados por testes pré-definidos.
 
 ### Por que o Teste Exploratório é Importante?
@@ -645,9 +672,16 @@ A combinação de testes exploratórios e automatizados oferece uma abordagem ma
 - **Adaptação a mudanças:** A flexibilidade do teste exploratório permite que os testadores se adaptem rapidamente às mudanças nos requisitos e no design da aplicação.
 
 **Em resumo,** o teste exploratório e os testes automatizados são complementares e, quando combinados de forma eficaz, podem garantir uma qualidade de software mais alta. Ao entender os pontos fortes e fracos de cada abordagem, as equipes de desenvolvimento podem criar estratégias de teste mais robustas e eficientes.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 10. Elabore um plano de teste para uma aplicação de realidade aumentada, considerando aspectos de usabilidade e experiência do usuário
 
+</summary>
 Um plano de teste abrangente para uma aplicação de realidade aumentada deve considerar não apenas a funcionalidade, mas também a experiência do usuário. Afinal, a RA é uma tecnologia imersiva que depende muito da interação intuitiva do usuário com o ambiente virtual.
 
 **Objetivos do Teste:**
@@ -724,9 +758,16 @@ Um plano de teste abrangente para uma aplicação de realidade aumentada deve co
 Ao seguir este plano de teste, é possível garantir que a aplicação de realidade aumentada ofereça uma experiência de usuário positiva e atenda às expectativas dos usuários.
 
 **Gostaria de explorar algum desses pontos com mais detalhes?** Podemos discutir sobre testes específicos para diferentes tipos de interação (gestos, voz, etc.), ou sobre como avaliar a experiência de imersão na aplicação.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 11. Explique como priorizar e reportar defeitos encontrados durante testes manuais
 
+</summary>
 A priorização e o reporte de defeitos encontrados durante os testes manuais são etapas cruciais para garantir a qualidade do software e direcionar os esforços da equipe de desenvolvimento. Ao priorizar os defeitos corretamente, é possível garantir que os problemas mais críticos sejam resolvidos em primeiro lugar, minimizando o impacto no usuário final.
 
 ### Priorização de Defeitos
@@ -789,9 +830,16 @@ Existem diversas ferramentas disponíveis para auxiliar na gestão de defeitos, 
 Ao seguir essas dicas e utilizar as ferramentas adequadas, você pode garantir que os defeitos sejam identificados, priorizados e corrigidos de forma eficiente, contribuindo para a entrega de um software de alta qualidade.
 
 **Gostaria de explorar algum desses tópicos com mais detalhes?** Por exemplo, podemos discutir sobre diferentes metodologias de priorização de defeitos ou sobre a importância da comunicação entre testadores e desenvolvedores.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 12. Explique a importância dos testes de carga e stress em uma aplicação de software
 
+</summary>
 Os testes de carga e stress são cruciais para garantir a qualidade e a performance de uma aplicação de software, especialmente em cenários onde a aplicação estará sujeita a um volume elevado de usuários ou dados.
 
 ### Testes de Carga
@@ -1394,8 +1442,16 @@ cy.get('input[type="file"]').attachFile({
 
 Este script fornece uma base sólida para automatizar testes de upload de arquivos com Cypress. Adaptando-o às suas necessidades específicas, você pode criar testes robustos e confiáveis.
 o)
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 19. Escreva um exemplo de código como realizar testes de performance em uma aplicação web, utilizando ferramentas de sua escolha## Testes de Desempenho em Aplicações Web: Um Exemplo com JMeter
+
+</summary>
 
 **JMeter** é uma ferramenta de teste de carga open-source popular, ideal para simular um grande número de usuários acessando uma aplicação web simultaneamente. Vamos criar um exemplo simples de teste de desempenho para uma página inicial.
 
@@ -1480,9 +1536,16 @@ class BasicSimulation extends Simulation {
 - **Analise os resultados com cuidado:** Identifique os gargalos e implemente as melhorias necessárias.
 
 Ao realizar testes de desempenho de forma regular, você garante que sua aplicação web seja capaz de atender às demandas dos usuários e evitar problemas de performance.
+</details>
+
+---
+
+<details>
+<summary>
 
 ## 20. Elabore um exemplo de como realizar uma avaliação de segurança em uma API RESTfull
 
+</summary>
 Uma API RESTful bem projetada e segura é fundamental para garantir a integridade dos dados e a proteção dos sistemas. A seguir, apresentaremos um exemplo de como realizar uma avaliação de segurança em uma API RESTful, abrangendo as principais áreas a serem analisadas.
 
 ### 1. **Inventário e Documentação**
