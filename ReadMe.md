@@ -1271,7 +1271,10 @@ Este exemplo demonstra como parametrizar o teste para executar o login com difer
 
 <details>
 <summary>
+
 ## 17. Elabore dois testes automatizados para uma API RESTfull de Controle de Ponto de funcionário,utilizando uma ferramenta de sua escolha
+
+</summary>
 
 **Postman** é uma ferramenta popular para o desenvolvimento e teste de APIs. Vamos criar dois testes automatizados para uma API RESTful de controle de ponto, simulando as ações de um funcionário batendo o ponto.
 
