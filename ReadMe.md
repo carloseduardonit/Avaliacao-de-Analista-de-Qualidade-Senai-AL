@@ -1,5 +1,10 @@
 # Avaliação de Analista de Qualidade
 
+> [!IMPORTANT]
+>
+> - Clique nos Titulos abaixo para ver os paragrafos conforme a demostração: :point_down:
+> <img src="/Imagem/GIT/demostração.gif" alt="Demostração de com fazer">
+
 Questões Teóricas
 <details>
 
